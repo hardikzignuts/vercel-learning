@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 const envLabel = import.meta.env.VITE_ENV_LABEL || 'Local'
 const apiUrl = import.meta.env.VITE_API_BASE_URL
 </script>
